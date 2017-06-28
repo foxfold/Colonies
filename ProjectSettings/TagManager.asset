@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - tile
+  - Grid
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 1394903903
+    locked: 0
+  - name: GroundDecals
+    uniqueID: 241260707
+    locked: 0
+  - name: Wall
+    uniqueID: 2424835061
+    locked: 0
+  - name: WallDecals
+    uniqueID: 3282865793
+    locked: 0
+  - name: Ceiling
+    uniqueID: 2236151517
+    locked: 0
+  - name: CeilingDecals
+    uniqueID: 3072728299
+    locked: 0
+  - name: PLAYER
+    uniqueID: 4283398549
+    locked: 0
