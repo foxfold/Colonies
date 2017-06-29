@@ -1,7 +1,4 @@
 # Colonies
-This is a highly WIP indie game being developed by Foxfold Studio. What is available in the repo is not necessarily up to date, and push dates are not necessarily accurate.
-
-# Colonies
 This is a highly WIP indie game being developed by Foxfold Studio. What is available in the repository is not necessarily up to date, and push dates are not necessarily accurate.
 
 # Licenses
