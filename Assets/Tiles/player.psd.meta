@@ -1,0 +1,246 @@
+fileFormatVersion: 2
+guid: 981c76f878f42c04e805a92bf54692e9
+timeCreated: 1491096111
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: body
+    21300002: helmet
+    21300004: Torso
+    21300006: Head
+    21300008: ConeOfVision
+    21300010: Dot
+    21300012: Blue
+    21300014: Green
+    21300016: keycard
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Torso
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 246
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 4}
+        - {x: -6, y: -3}
+        - {x: -5, y: -4}
+        - {x: 5, y: -4}
+        - {x: 6, y: -3}
+        - {x: 6, y: 4}
+      physicsShape:
+      - - {x: -6, y: 4}
+        - {x: -6, y: -3}
+        - {x: -5, y: -4}
+        - {x: 5, y: -4}
+        - {x: 6, y: -3}
+        - {x: 6, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Head
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 248
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 3.5}
+        - {x: -4, y: -3.5}
+        - {x: 4, y: -3.5}
+        - {x: 4, y: 3.5}
+      physicsShape:
+      - - {x: -4, y: 3.5}
+        - {x: -4, y: -3.5}
+        - {x: 4, y: -3.5}
+        - {x: 4, y: 3.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ConeOfVision
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 164
+        width: 52
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 37.5}
+        - {x: -25.5, y: 9.5}
+        - {x: -7.5, y: -37.5}
+        - {x: 1.5, y: -37.5}
+        - {x: 24.5, y: 16.5}
+        - {x: 24.5, y: 32.5}
+        - {x: 20.5, y: 37.5}
+      physicsShape:
+      - - {x: -25.5, y: 37.5}
+        - {x: -25.5, y: 9.5}
+        - {x: -7.5, y: -37.5}
+        - {x: 1.5, y: -37.5}
+        - {x: 24.5, y: 16.5}
+        - {x: 24.5, y: 32.5}
+        - {x: 20.5, y: 37.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dot
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 239
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: keycard
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 228
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 2.5}
+        - {x: -2, y: -2.5}
+        - {x: 2, y: -2.5}
+        - {x: 2, y: 2.5}
+      physicsShape:
+      - - {x: -2, y: 2.5}
+        - {x: -2, y: -2.5}
+        - {x: 2, y: -2.5}
+        - {x: 2, y: 2.5}
+      tessellationDetail: 0
+    outline:
+    - - {x: -122, y: 128}
+      - {x: -125, y: 125}
+      - {x: -125, y: 113}
+      - {x: -122, y: 112}
+      - {x: -116, y: 112}
+      - {x: -115, y: 115}
+      - {x: -115, y: 125}
+      - {x: -118, y: 128}
+    - - {x: -105, y: 126}
+      - {x: -109, y: 122}
+      - {x: -109, y: 118}
+      - {x: -105, y: 114}
+      - {x: -103, y: 114}
+      - {x: -99, y: 118}
+      - {x: -99, y: 122}
+      - {x: -103, y: 126}
+    physicsShape:
+    - - {x: -122, y: 128}
+      - {x: -125, y: 125}
+      - {x: -125, y: 113}
+      - {x: -122, y: 112}
+      - {x: -116, y: 112}
+      - {x: -115, y: 115}
+      - {x: -115, y: 125}
+      - {x: -118, y: 128}
+    - - {x: -105, y: 126}
+      - {x: -109, y: 122}
+      - {x: -109, y: 118}
+      - {x: -105, y: 114}
+      - {x: -103, y: 114}
+      - {x: -99, y: 118}
+      - {x: -99, y: 122}
+      - {x: -103, y: 126}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
