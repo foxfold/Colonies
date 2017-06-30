@@ -37,7 +37,6 @@ GameObject:
   - component: {fileID: 4476009673919754}
   - component: {fileID: 212379070126602988}
   - component: {fileID: 114314708152313050}
-  - component: {fileID: 61759416902012616}
   m_Layer: 0
   m_Name: Tile
   m_TagString: tile
@@ -72,31 +71,6 @@ Transform:
   m_Father: {fileID: 4476009673919754}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &61759416902012616
-BoxCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1941205731844186}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 0.64, y: 0.64}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.9846154, y: 0.9846154}
-  m_EdgeRadius: 0
 --- !u!65 &65132378890585914
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -123,6 +97,7 @@ MonoBehaviour:
   occupied: 0
   x: 0
   y: 0
+  impassible: 0
 --- !u!212 &212379070126602988
 SpriteRenderer:
   m_ObjectHideFlags: 1
