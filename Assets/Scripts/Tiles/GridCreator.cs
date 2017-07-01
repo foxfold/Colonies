@@ -25,6 +25,9 @@ public class GridCreator : MonoBehaviour
     public int selectedLayer = 0;
     SortingLayer[] sortingLayerArray;
 
+    PolygonCollider2D polyCollider;
+    Sprite colSprite;
+
     public void Start()
     {
         tileDict.Clear();
@@ -168,18 +171,16 @@ public class GridCreator : MonoBehaviour
                 tileDict[coordinates] = newTile;
             else
                 tileDict.Add(coordinates, newTile);
-
-            if (tileDict[coordinates].GetComponent<PolygonCollider2D>() == null)
-                tileDict[coordinates].AddComponent<PolygonCollider2D>();
-
-            Vector2[] outlines = tileDict[coordinates].GetComponent<SpriteRenderer>().sprite.vertices;
-            tileDict[coordinates].GetComponent<PolygonCollider2D>().pathCount = 1;
-            tileDict[coordinates].GetComponent<PolygonCollider2D>().SetPath(0, outlines);
         }
             
         tileDict[coordinates].GetComponent<SpriteRenderer>().flipX = flipX;
         tileDict[coordinates].GetComponent<SpriteRenderer>().flipY = flipY;
         tileDict[coordinates].transform.rotation = Quaternion.AngleAxis(-angle, Vector3.forward);
+
+        if (tileDict[coordinates].GetComponent<PolygonCollider2D>() != null)
+            DestroyImmediate(tileDict[coordinates].GetComponent<PolygonCollider2D>());
+
+        tileDict[coordinates].AddComponent<PolygonCollider2D>();
     }
 
     public void Brush(TileCoords coordinates, TileCoords originalCoords)

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 594b824008b32454190412d342a6acd8
-timeCreated: 1498783263
+timeCreated: 1498882854
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -115,12 +115,13 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -2, y: 2}
-        - {x: -2, y: -8}
-        - {x: 2, y: -8}
-        - {x: 2, y: -2}
-        - {x: 8, y: -2}
-        - {x: 8, y: 2}
+      - - {x: -2, y: 4}
+        - {x: -4, y: 2}
+        - {x: -4, y: -8}
+        - {x: 4, y: -8}
+        - {x: 4, y: -4}
+        - {x: 8, y: -4}
+        - {x: 8, y: 4}
       tessellationDetail: 1
     - serializedVersion: 2
       name: wallThinStraight
@@ -134,11 +135,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -8, y: -2}
-        - {x: 8, y: -2}
-        - {x: 8, y: 2}
-        - {x: -8, y: 2}
-      tessellationDetail: 0
+      - - {x: -8, y: -4}
+        - {x: 8, y: -4}
+        - {x: 8, y: 4}
+        - {x: -8, y: 4}
+      tessellationDetail: 1
     - serializedVersion: 2
       name: wallThinT
       rect:
@@ -151,14 +152,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 8, y: 2}
-        - {x: -8, y: 2}
-        - {x: -8, y: -2}
-        - {x: -2, y: -2}
-        - {x: -2, y: -8}
-        - {x: 2, y: -8}
-        - {x: 2, y: -2}
-        - {x: 8, y: -2}
+      - - {x: 8, y: 4}
+        - {x: -8, y: 4}
+        - {x: -8, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -8}
+        - {x: 4, y: -8}
+        - {x: 4, y: -4}
+        - {x: 8, y: -4}
       tessellationDetail: 1
     - serializedVersion: 2
       name: wallThinWindow
@@ -172,18 +173,17 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 8, y: 2}
-        - {x: 6, y: 2}
-        - {x: 6, y: 1}
-        - {x: -6, y: 1}
-        - {x: -6, y: 2}
-        - {x: -8, y: 2}
-        - {x: -8, y: -2}
-        - {x: -6, y: -2}
-        - {x: -6, y: -1}
-        - {x: 6, y: -1}
-        - {x: 6, y: -2}
-        - {x: 8, y: -2}
+      - - {x: 8, y: 4}
+        - {x: 6, y: 4}
+        - {x: 5, y: 3}
+        - {x: -5, y: 3}
+        - {x: -6, y: 4}
+        - {x: -8, y: 4}
+        - {x: -8, y: -4}
+        - {x: -6, y: -4}
+        - {x: 5, y: -3}
+        - {x: 6, y: -4}
+        - {x: 8, y: -4}
       tessellationDetail: 1
     - serializedVersion: 2
       name: wallThinAngle
@@ -197,12 +197,12 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -8, y: -3}
-        - {x: -3, y: -8}
-        - {x: 2, y: -8}
-        - {x: 2, y: -7}
-        - {x: -7, y: 2}
-        - {x: -8, y: 2}
+      - - {x: -8, y: -5}
+        - {x: -5, y: -8}
+        - {x: 4, y: -8}
+        - {x: 4, y: -7}
+        - {x: -7, y: 4}
+        - {x: -8, y: 4}
       tessellationDetail: 0
     - serializedVersion: 2
       name: wallThinPlus
@@ -433,6 +433,7 @@ TextureImporter:
       - - {x: -8, y: 2}
         - {x: -8, y: -2}
         - {x: -4, y: -2}
+        - {x: -4, y: -1}
         - {x: -5, y: 0}
         - {x: -6, y: 2}
       - - {x: 4, y: 2}
