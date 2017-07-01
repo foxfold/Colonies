@@ -10,7 +10,7 @@ public struct Layer
     public bool collision;
 }
 
-public class TileMapSettings : EditorWindow
+public class TileKitTools : EditorWindow
 {
     // References to relevant grid
     public GameObject selectedGrid;
@@ -52,10 +52,15 @@ public class TileMapSettings : EditorWindow
     public TileData selectedTD;
     public bool showPrefabSetup = false;
 
-    [MenuItem("Window/Foxfold/Tile Map Settings")]
+    [MenuItem("Window/Foxfold/Tile Kit tools")]
     public static void ShowWindow()
     {
-        EditorWindow.GetWindow(typeof(TileMapSettings));
+        EditorWindow.GetWindow(typeof(TileKitTools), false, "Tile Kit tools");
+    }
+
+    void onEnable()
+    {
+
     }
 
     void OnSelectionChange() // Checks for grid selection change, selects the current object if it is a grid.
@@ -150,6 +155,9 @@ public class TileMapSettings : EditorWindow
 
     void OnGUI()
     {
+
+        Texture2D icon = EditorGUIUtility.Load("Assets/Resources/foxfold2.png") as Texture2D;
+        titleContent.image = icon;
 
         //Layers = new ReorderableList();
 
