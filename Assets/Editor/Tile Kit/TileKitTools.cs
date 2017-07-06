@@ -15,7 +15,6 @@ public class TileKitTools : EditorWindow
     // References to relevant grid
     public GameObject selectedGrid;
     public GridCreator selectedGridCreator;
-    public List<GameObject> grids;
 
     // Info passed to tiles on creation
     public enum oldLayersEnum { Ground, Middle, Top };
@@ -171,22 +170,6 @@ public class TileKitTools : EditorWindow
         //    bool displayAddButton, bool displayRemoveButton)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         textureStyle = new GUIStyle(GUI.skin.button);
         textureStyle.margin = new RectOffset(4, 4, 4, 4);
         textureStyle.normal.background = null;
@@ -208,7 +191,6 @@ public class TileKitTools : EditorWindow
             selectedGrid.AddComponent<GridCreator>();
             selectedGridCreator = selectedGrid.GetComponent<GridCreator>();
             selectedGrid.tag = "Grid";
-            grids.Add(selectedGrid);
             GameObject[] creationSelection = new GameObject[1] { selectedGrid };
             Selection.objects = creationSelection;
         }
@@ -278,8 +260,8 @@ public class TileKitTools : EditorWindow
                                                   GUILayoutUtility.GetLastRect().width - 4f,
                                                   GUILayoutUtility.GetLastRect().height - 4f),
                                          sprites[selTileInt].texture,
-                                         new Rect(sprites[selTileInt].textureRect.x / (float)sprites[selTileInt].texture.width,
-                                                  sprites[selTileInt].textureRect.y / (float)sprites[selTileInt].texture.height,
+                                         new Rect(sprites[selTileInt].textureRect.x / (float)sprites[selTileInt].texture.width, // - sprites[selTileInt].textureRectOffset.x,
+                                                  sprites[selTileInt].textureRect.y / (float)sprites[selTileInt].texture.height, // - sprites[selTileInt].textureRectOffset.y,
                                                   sprites[selTileInt].textureRect.width / (float)sprites[selTileInt].texture.width,
                                                   sprites[selTileInt].textureRect.height / (float)sprites[selTileInt].texture.height));
             }
@@ -399,7 +381,6 @@ public class TileKitTools : EditorWindow
                                                               sprites[i].textureRect.y / (float)sprites[i].texture.height,
                                                               sprites[i].textureRect.width / (float)sprites[i].texture.width,
                                                               sprites[i].textureRect.height / (float)sprites[i].texture.height));
-
                     }
                     else
                     {

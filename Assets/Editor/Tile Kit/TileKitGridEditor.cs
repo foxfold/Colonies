@@ -2,7 +2,7 @@
 using UnityEditor;
 
 [CustomEditor(typeof(GridCreator))]
-public class TilemapEditor : Editor
+public class TileKitGridEditor : Editor
 {
 
     GridCreator gridCreator;

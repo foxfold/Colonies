@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 594b824008b32454190412d342a6acd8
-timeCreated: 1498882854
+timeCreated: 1499055775
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -22,6 +22,24 @@ TextureImporter:
     21300030: door3
     21300032: door4
     21300034: spritesheet_17
+    21300036: simplespaceship_0
+    21300038: simplespaceship_1
+    21300040: simplespaceship_2
+    21300042: simplespaceship_3
+    21300044: simplespaceship_4
+    21300046: simplespaceship_5
+    21300048: simplespaceship_6
+    21300050: simplespaceship_7
+    21300052: simplespaceship_8
+    21300054: simplespaceship_9
+    21300056: simplespaceship_10
+    21300058: simplespaceship_11
+    21300060: simplespaceship_12
+    21300062: simplespaceship_13
+    21300064: simplespaceship_14
+    21300066: simplespaceship_15
+    21300068: simplespaceship_16
+    21300070: simplespaceship_17
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -104,385 +122,225 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wallThinCorner
+      name: simplespaceship_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 239
+        x: 0
+        y: 240
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -2, y: 4}
-        - {x: -4, y: 2}
-        - {x: -4, y: -8}
-        - {x: 4, y: -8}
-        - {x: 4, y: -4}
-        - {x: 8, y: -4}
-        - {x: 8, y: 4}
-      tessellationDetail: 1
-    - serializedVersion: 2
-      name: wallThinStraight
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 239
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: -4}
-        - {x: 8, y: -4}
-        - {x: 8, y: 4}
-        - {x: -8, y: 4}
-      tessellationDetail: 1
-    - serializedVersion: 2
-      name: wallThinT
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 239
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 8, y: 4}
-        - {x: -8, y: 4}
-        - {x: -8, y: -4}
-        - {x: -4, y: -4}
-        - {x: -4, y: -8}
-        - {x: 4, y: -8}
-        - {x: 4, y: -4}
-        - {x: 8, y: -4}
-      tessellationDetail: 1
-    - serializedVersion: 2
-      name: wallThinWindow
-      rect:
-        serializedVersion: 2
-        x: 52
-        y: 239
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 8, y: 4}
-        - {x: 6, y: 4}
-        - {x: 5, y: 3}
-        - {x: -5, y: 3}
-        - {x: -6, y: 4}
-        - {x: -8, y: 4}
-        - {x: -8, y: -4}
-        - {x: -6, y: -4}
-        - {x: 5, y: -3}
-        - {x: 6, y: -4}
-        - {x: 8, y: -4}
-      tessellationDetail: 1
-    - serializedVersion: 2
-      name: wallThinAngle
-      rect:
-        serializedVersion: 2
-        x: 69
-        y: 239
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: -5}
-        - {x: -5, y: -8}
-        - {x: 4, y: -8}
-        - {x: 4, y: -7}
-        - {x: -7, y: 4}
-        - {x: -8, y: 4}
+      outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: wallThinPlus
+      name: simplespaceship_1
       rect:
         serializedVersion: 2
-        x: 86
-        y: 239
+        x: 16
+        y: 240
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 8, y: 2}
-        - {x: 2, y: 2}
-        - {x: 2, y: 8}
-        - {x: -2, y: 8}
-        - {x: -2, y: 2}
-        - {x: -8, y: 2}
-        - {x: -8, y: -2}
-        - {x: -2, y: -2}
-        - {x: -2, y: -8}
-        - {x: 2, y: -8}
-        - {x: 2, y: -2}
-        - {x: 8, y: -2}
-      tessellationDetail: 1
-    - serializedVersion: 2
-      name: wallThickCorner
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 205
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -3, y: 3}
-        - {x: -3, y: -8}
-        - {x: 3, y: -8}
-        - {x: 3, y: -3}
-        - {x: 8, y: -3}
-        - {x: 8, y: 3}
-      tessellationDetail: 1
-    - serializedVersion: 2
-      name: wallThickStraight
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 205
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: -3}
-        - {x: 8, y: -3}
-        - {x: 8, y: 3}
-        - {x: -8, y: 3}
+      outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: wallThickT
+      name: simplespaceship_2
       rect:
         serializedVersion: 2
-        x: 35
-        y: 205
+        x: 32
+        y: 240
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 8, y: 3}
-        - {x: -8, y: 3}
-        - {x: -8, y: -3}
-        - {x: -3, y: -3}
-        - {x: -3, y: -8}
-        - {x: 3, y: -8}
-        - {x: 3, y: -3}
-        - {x: 8, y: -3}
-      tessellationDetail: 1
-    - serializedVersion: 2
-      name: wallThickWindow
-      rect:
-        serializedVersion: 2
-        x: 52
-        y: 205
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 8, y: 3}
-        - {x: 6, y: 3}
-        - {x: 6, y: 1}
-        - {x: -6, y: 1}
-        - {x: -6, y: 3}
-        - {x: -8, y: 3}
-        - {x: -8, y: -3}
-        - {x: -6, y: -3}
-        - {x: -6, y: -1}
-        - {x: 6, y: -1}
-        - {x: 6, y: -3}
-        - {x: 8, y: -3}
-      tessellationDetail: 1
-    - serializedVersion: 2
-      name: wallThickAngle
-      rect:
-        serializedVersion: 2
-        x: 69
-        y: 205
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: -4}
-        - {x: -4, y: -8}
-        - {x: 3, y: -8}
-        - {x: 3, y: -7}
-        - {x: -7, y: 3}
-        - {x: -8, y: 3}
+      outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: wallThickPlus
+      name: simplespaceship_3
       rect:
         serializedVersion: 2
-        x: 86
-        y: 205
+        x: 48
+        y: 240
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 8, y: 3}
-        - {x: 3, y: 3}
-        - {x: 3, y: 8}
-        - {x: -3, y: 8}
-        - {x: -3, y: 3}
-        - {x: -8, y: 3}
-        - {x: -8, y: -3}
-        - {x: -3, y: -3}
-        - {x: -3, y: -8}
-        - {x: 3, y: -8}
-        - {x: 3, y: -3}
-        - {x: 8, y: -3}
-      tessellationDetail: 1
-    - serializedVersion: 2
-      name: door0
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 172
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: -2}
-        - {x: 8, y: -2}
-        - {x: 8, y: 2}
-        - {x: -8, y: 2}
+      outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: door1
+      name: simplespaceship_4
       rect:
         serializedVersion: 2
-        x: 18
-        y: 172
+        x: 64
+        y: 240
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -2}
-        - {x: 0, y: -1}
-        - {x: -3, y: 2}
-        - {x: -8, y: 2}
-        - {x: -8, y: -2}
-      - - {x: 3, y: -2}
-        - {x: 0, y: 1}
-        - {x: 0, y: 2}
-        - {x: 8, y: 2}
-        - {x: 8, y: -2}
-      tessellationDetail: 1
-    - serializedVersion: 2
-      name: door2
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 172
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: 2}
-        - {x: -8, y: -2}
-        - {x: -2, y: -2}
-        - {x: -2, y: -1}
-        - {x: -5, y: 2}
-      - - {x: 2, y: 2}
-        - {x: 2, y: 1}
-        - {x: 5, y: -2}
-        - {x: 8, y: -2}
-        - {x: 8, y: 2}
+      outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: door3
+      name: simplespaceship_5
       rect:
         serializedVersion: 2
-        x: 52
-        y: 172
+        x: 80
+        y: 240
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: 2}
-        - {x: -8, y: -2}
-        - {x: -4, y: -2}
-        - {x: -4, y: -1}
-        - {x: -5, y: 0}
-        - {x: -6, y: 2}
-      - - {x: 4, y: 2}
-        - {x: 4, y: 1}
-        - {x: 6, y: -2}
-        - {x: 8, y: -2}
-        - {x: 8, y: 2}
-      tessellationDetail: 1
+      outline: []
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: door4
+      name: simplespaceship_6
       rect:
         serializedVersion: 2
-        x: 69
-        y: 172
+        x: 0
+        y: 224
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: 2}
-        - {x: -8, y: -2}
-        - {x: -6, y: -2}
-        - {x: -6, y: 2}
-      - - {x: 6, y: -2}
-        - {x: 8, y: -2}
-        - {x: 8, y: 2}
-        - {x: 6, y: 2}
-      tessellationDetail: 1
+      outline: []
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: spritesheet_17
+      name: simplespaceship_7
       rect:
         serializedVersion: 2
-        x: 1
-        y: 52
+        x: 16
+        y: 224
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 1}
-        - {x: -4, y: -3}
-        - {x: -4, y: -5}
-        - {x: -1, y: -8}
-        - {x: 3, y: -8}
-        - {x: 6, y: -5}
-        - {x: 6, y: -3}
-        - {x: 2, y: 1}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: simplespaceship_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: simplespaceship_9
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: simplespaceship_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: simplespaceship_11
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: simplespaceship_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: simplespaceship_13
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: simplespaceship_14
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: simplespaceship_15
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: simplespaceship_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
       tessellationDetail: 0
     outline: []
   spritePackingTag: 
