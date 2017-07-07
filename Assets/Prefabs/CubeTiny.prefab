@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 136388668766205554}
   - component: {fileID: 23975602144579672}
   - component: {fileID: 54306667599006010}
-  - component: {fileID: 114619601136749692}
+  - component: {fileID: 114165783263891146}
   m_Layer: 0
   m_Name: CubeTiny
   m_TagString: Untagged
@@ -57,7 +57,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: bd3e7dd16403914448718e53a4be66e7, type: 2}
+  - {fileID: 2100000, guid: 9ce3189fff312e545a832946ffc88261, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -98,7 +98,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &114619601136749692
+--- !u!114 &114165783263891146
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -106,12 +106,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1417730656355930}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fecf9f58bc94604ea2de95d4285c157, type: 3}
+  m_Script: {fileID: 11500000, guid: 11e506f84a6d60c4090d144c79a97660, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedx: 0
-  speedy: 0.1
-  speedz: 0.1
 --- !u!136 &136388668766205554
 CapsuleCollider:
   m_ObjectHideFlags: 1
